@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 2px;
+  padding: 5px;}
+
+ .nav-1{
+   display: flex;
+   justify-content: center;
+   gap: 8rem;
+  }
+  .escolher-cor{
+    flex-direction: column;
+  }
+  #comprar-agora{
+ 
+  display: block;       
+  width: 200px;           
+  margin: 20px auto;    
+  padding: 8px ;        
+  text-decoration: none;  
+  }
+#Escolher{
+  display: flex;
+  gap: 1rem;
+  justify-content:flex-end
+}
+.nav-1{
+    background: pink;
+    height: 5rem;
+}
