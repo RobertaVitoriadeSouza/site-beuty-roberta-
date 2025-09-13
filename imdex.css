@@ -1,13 +1,16 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 2rem;
+  padding: 0rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
-  color: #333333;
-}
+  }
   .inicio{
     background:#F89CA7;
-    height: 6rem;
+    min-height: 8rem;
+    padding: 2rem;
+  }
+  .nav-1{
+    justify-content: space-between;
   }
   .logo{
     display: flex;
@@ -16,17 +19,20 @@
     padding: 1rem;
     
 }
- .nav-1{
-   display: flex;
-   justify-content: center;
-   gap: 8rem;
-  }
+#cabecalho{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;}
+
 #marketing{
     display: flex;
     gap: 8rem;
   }
    #vendas {
-  display: flex;
-  gap: 4rem;
+      display: flex;
+gap: 2rem;
+  padding: 2rem;
+
 }
 
