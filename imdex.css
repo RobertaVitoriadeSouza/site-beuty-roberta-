@@ -2,22 +2,37 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0rem;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   }
   .inicio{
-    background:#F89CA7;
-    min-height: 8rem;
+    min-height: 20rem;
     padding: 2rem;
+    background-image: url(assests/Alya\ Skin\ Australia\ Photoshoot.jpg);
+     background-position: center;
+       height: 40rem;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+  background-size: 100% 100%;
   }
-  .nav-1{
-    justify-content: space-between;
-  }
-  .logo{
+#nav-1{
     display: flex;
     justify-content: center;
+    align-items:  flex-start;
+   gap: 6rem;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;;
     align-items: center;
     padding: 1rem;
-    
+    height: 50px;
+    width: 120px;
+}
+.logo img{
+  width: 80rem;
+  height: 50px;
 }
 #cabecalho{
   display: flex;
@@ -25,14 +40,75 @@
   gap: 2rem;
   padding: 2rem;}
 
+  
 #marketing{
     display: flex;
     gap: 8rem;
+    background: #f8edeb;
+    margin: 1rem;
   }
-   #vendas {
+  #marketing p{
+    align-items: center;
+    gap: 1rem;
+  }
+   .vendas {
       display: flex;
 gap: 2rem;
   padding: 2rem;
+  font-weight: 30rem;
+  justify-content: space-evenly;
+}
+  .lancamentos{
+    font-size: 2rem;
+    background-image: url(assests/fundo\ brilhoso.jpg);
+    font-weight: bold;
+    padding: 1rem;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    justify-content: center;
+    margin: 1rem;
+    text-align: center;
+  }
+#nav-1 a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
 
+#nav-1 a:hover{
+  transform: scale(1.1) ;
+  transition: all 0.3s ease-in-out;
+  color: #d295ca;
+}
+.inicio img{
+  width: 6rem;
+  height: auto;
 }
 
+.produto-1, .produto-2, .produto-3, .produto-4{
+  background:#E09DD9;
+  width: fit-content;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.produto-1 img, .produto-2 img, .produto-3 img, .produto-4 img{
+  width: 15rem;
+  height: auto;
+  justify-content: center;
+  margin: 1rem;
+}
+.produto-1 p, .produto-2 p, .produto-3 p, .produto-4 p{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+}
+.vendas button{
+  width: 3rem ;
+  height: 2rem;
+  justify-content: center;
+}
