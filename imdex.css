@@ -88,7 +88,7 @@ gap: 2rem;
 }
 
 .produto-1, .produto-2, .produto-3, .produto-4{
-  background:#E09DD9;
+  background:#f7b2d9;
   width: fit-content;
   gap: 3rem;
   align-items: center;
@@ -98,7 +98,7 @@ gap: 2rem;
 
 .produto-1 img, .produto-2 img, .produto-3 img, .produto-4 img{
   width: 15rem;
-  height: auto;
+  height: 15rem;
   justify-content: center;
   margin: 1rem;
 }
@@ -106,9 +106,31 @@ gap: 2rem;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.5rem;
+  justify-content: center;
 }
 .vendas button{
-  width: 3rem ;
-  height: 2rem;
-  justify-content: center;
+  display: block; 
+  width: 120px;
+  height: 40px;
+  margin: 10px auto;  
+font-family:poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ba3c90;
+  background-color: #ecdeea;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+.vendas button:hover {
+  background-color: #631e5d;
+  color: white;
+}
+.vendas h3{
+justify-content: center;
+align-items: center;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
