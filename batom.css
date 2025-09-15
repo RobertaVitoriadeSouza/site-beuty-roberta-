@@ -1,16 +1,35 @@
-*{
+  *{
   box-sizing: border-box;
-  margin: 2%;
-  padding: 5px;}
+  margin: 0;
+  padding: 0rem;
+  font-family:Cambria, Cochin, Georgia, Times, serif ;
+  }
+
 
  .nav-1{
-   display: flex;
-   justify-content: center;
-   gap: 8rem;
-    align-items: center;
-  font-size: 1.5rem;
-  font-weight: bold
+  display: flex;
+    justify-content: center;
+    align-items:  flex-start;
+   gap: 6rem;
+   background:  PaleVioletRed;
+   min-height: 5rem;
+   align-items: center;
+    padding: 1rem;
+
   }
+  .nav-1 a{
+    text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  .nav-1 a:hover{
+    color: black;
+    cursor: pointer;
+      transform: scale(1.1) ;
+  transition: all 0.3s ease-in-out;
+  }
+  
   .principal img {
     width: 50%;
     height: auto;
@@ -33,7 +52,10 @@
   gap: 1rem;
   justify-content:flex-end
 }
-.nav-1{
-    background: pink;
-    height: 5rem;
+.Descricao{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 4rem;
+  justify-content: center;
+  font-family: Arial, sans-serif;
 }
