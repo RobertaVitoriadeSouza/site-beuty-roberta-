@@ -31,11 +31,11 @@
   }
   
   .principal img {
-    width: 50%;
+    width: 40%;
     height: auto;
     background: PaleVioletRed;
     margin: 2rem;
-    padding: 6rem;
+    padding: 4rem;
     border-radius: 10%;
   }
 
@@ -47,15 +47,37 @@
   padding: 8px ;        
   text-decoration: none;  
   }
-#Escolher{
-  display: flex;
-  gap: 1rem;
-  justify-content:flex-end
-}
 .Descricao{
   font-size: 1.5rem;
   padding: 0.5rem;
   margin: 4rem;
   justify-content: center;
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif
+ }
+
+  .principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; /* espaço entre imagem e texto */
+  font-size: 2.3rem;
+  background: #E5E4E2;
+  padding: 1rem;
+  margin: 2rem;
 }
+.botao{
+    display: block; 
+  width: 120px;
+  height: 40px;
+  margin: 10px auto;  
+font-family:poppins, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ba3c90;
+  background-color: #ecdeea;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
