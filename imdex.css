@@ -158,14 +158,14 @@ align-items: center;
   
 }
 .historia ul {
-  text-align: left;   /* deixa a lista alinhada certinha */
-  display: inline-block; /* mantém centralizado dentro do container */
-  font-size: 3rem;    /* ajusta tamanho se quiser menor que o resto */
-  margin: 2rem auto;  /* dá um respiro */
-  padding-left: 2rem; /* aproxima a bolinha do texto */
+  text-align: left;   
+  display: inline-block;
+  font-size: 3rem;    
+  margin: 2rem auto; 
+  padding-left: 2rem; 
 }
 .vendas button a {
-  text-decoration: none; /* remove o sublinhado */
-  color: inherit;        /* herda a cor do botão */
+  text-decoration: none; 
+  color: inherit;        
   font-weight: bold;
-}
+}     
