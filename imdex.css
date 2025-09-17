@@ -89,7 +89,7 @@ gap: 2rem;
 
 .produto-1, .produto-2, .produto-3, .produto-4{
   background:#f7b2d9;
-  width: fit-content;
+  width:  fit-content;  
   gap: 3rem;
   align-items: center;
   justify-content: space-around;
@@ -133,4 +133,24 @@ justify-content: center;
 align-items: center;
   padding: 0.5rem;
   font-size: 1.5rem;
+}
+.nossa-historia{
+  display: flex;
+   margin: 2rem;
+   background: #ecdeea;
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin-top: 150px;
+}
+
+
+
+
+.nossa-historia img{
+  height: 50rem;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+
 }
