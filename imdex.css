@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0rem;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family:'Arial Narrow', Arial, sans-serif ;
   }
   .inicio{
     min-height: 20rem;
@@ -46,11 +46,18 @@
     gap: 8rem;
     background: #f8edeb;
     margin: 1rem;
+    padding: 1rem;
   }
   #marketing p{
     align-items: center;
     gap: 1rem;
   }
+   #marketing img{
+     height: 5rem;
+     width: 5rem;
+
+   }
+  
    .vendas {
       display: flex;
 gap: 2rem;
@@ -134,23 +141,31 @@ align-items: center;
   padding: 0.5rem;
   font-size: 1.5rem;
 }
-.nossa-historia{
-  display: flex;
-   margin: 2rem;
-   background: #ecdeea;
-  display: block;
-  position: relative;
-  z-index: 1;
-  margin-top: 150px;
-}
-
-
-
-
-.nossa-historia img{
-  height: 50rem;
+.historia{
+  background: oklch(89.9% 0.061 343.231);
+  margin-top: auto;
+  margin: 5rem;
+  gap: 1rem;
+  padding: 4rem;
   justify-content: center;
-  margin: 1rem;
-  padding: 1rem;
-
+  align-items: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+};
+.historia img{
+  min-height: 30rem;
+  
+}
+.historia ul {
+  text-align: left;   /* deixa a lista alinhada certinha */
+  display: inline-block; /* mantém centralizado dentro do container */
+  font-size: 3rem;    /* ajusta tamanho se quiser menor que o resto */
+  margin: 2rem auto;  /* dá um respiro */
+  padding-left: 2rem; /* aproxima a bolinha do texto */
+}
+.vendas button a {
+  text-decoration: none; /* remove o sublinhado */
+  color: inherit;        /* herda a cor do botão */
+  font-weight: bold;
 }
